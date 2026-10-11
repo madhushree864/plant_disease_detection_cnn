@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Notebooks and tooling
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+data/*
+models/*
+outputs/*
+!outputs/eda/.gitkeep
+!outputs/training/.gitkeep
+!outputs/evaluation/.gitkeep
+!outputs/predictions/.gitkeep
+
+# Local logs and caches
+*.log
+.pytest_cache/
